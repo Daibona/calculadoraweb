@@ -26,21 +26,19 @@ body {
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.2);
 }
 
-#tela-calculadora {
+#visor {
     display: flex;
     justify-content: right;
     align-self: center;
+    border: none;
+    text-align: right;
+    padding: 20px;
     width: 300px;
     height: 70px;
+    font-size: 30px;
     border-radius: 10px;
     background-color: rgb(221, 221, 221);
     margin-top: 30px;
-}
-
-#numero-tela {
-    align-self: center;
-    margin-right: 20px;
-    font-size: 30px;
 }
 
 #tela-numeros {
@@ -119,4 +117,24 @@ body {
 
 .operacoes:hover {
     background-color: rgb(241, 241, 241);
+}
+
+#apagar {
+    color: white;
+    background-color: rgb(117, 48, 48);
+    transition: background-color 0.3s ease;
+}
+
+#igual {
+    color: white;
+    background-color: rgb(60, 83, 158);
+    transition: background-color 0.3s ease;
+}
+
+#apagar:hover {
+    background-color: rgb(129, 53, 53);
+}
+
+#igual:hover {
+    background-color: rgb(63, 89, 173);
 }
